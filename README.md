@@ -12,12 +12,13 @@ A beautiful, AI-powered mind mapping desktop app for macOS — built with Electr
 [![Download for macOS](https://img.shields.io/badge/Download-macOS_Apple_Silicon_(M1%2FM2%2FM3%2FM4)-7c3aed?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/elavenile/mindmap-tool/releases/latest/download/MindMap-Tool-1.0.0-arm64.dmg)
 
 > **90 MB** · macOS 12+ · Apple Silicon only (M1, M2, M3, M4)
->
-> After downloading: Open `.dmg` → Drag to Applications → Run this in Terminal:
+
+> [!IMPORTANT]
+> **After installing, you MUST run this command in Terminal to open the app:**
 > ```bash
-> xattr -cr /Applications/MindMap\ Tool.app
+> sudo xattr -cr /Applications/MindMap\ Tool.app
 > ```
-> Then double-click to open. (This removes the macOS quarantine flag from unsigned apps)
+> This is required because the app is not notarized with Apple. Without this step, macOS will say the app "is damaged". It's not damaged — this command just removes the quarantine flag.
 
 ---
 
@@ -202,10 +203,13 @@ MIT License — free for personal and commercial use.
 
 **Installation steps:**
 1. Download the `.dmg` file (90 MB)
-2. Open the DMG file
-3. Drag **MindMap Tool** into your **Applications** folder
-4. Open **Terminal** and run:
+2. Open the DMG and drag **MindMap Tool** into **Applications**
+3. **⚠️ Open Terminal and run:**
    ```bash
-   xattr -cr /Applications/MindMap\ Tool.app
+   sudo xattr -cr /Applications/MindMap\ Tool.app
    ```
-5. Double-click **MindMap Tool** in Applications — start mapping! 🧠
+   *(Enter your Mac password when prompted)*
+4. Double-click **MindMap Tool** in Applications — enjoy! 🧠
+
+> [!WARNING]
+> If you skip step 3, macOS will show a **"damaged and can't be opened"** error. This is a standard macOS security measure for unsigned apps — the app is perfectly safe.
