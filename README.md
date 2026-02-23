@@ -13,7 +13,11 @@ A beautiful, AI-powered mind mapping desktop app for macOS — built with Electr
 
 > **90 MB** · macOS 12+ · Apple Silicon only (M1, M2, M3, M4)
 >
-> After downloading: Open the `.dmg` → Drag **MindMap Tool** to Applications → Right-click → **Open** (first launch only)
+> After downloading: Open `.dmg` → Drag to Applications → Run this in Terminal:
+> ```bash
+> xattr -cr /Applications/MindMap\ Tool.app
+> ```
+> Then double-click to open. (This removes the macOS quarantine flag from unsigned apps)
 
 ---
 
@@ -200,5 +204,8 @@ MIT License — free for personal and commercial use.
 1. Download the `.dmg` file (90 MB)
 2. Open the DMG file
 3. Drag **MindMap Tool** into your **Applications** folder
-4. On first launch: right-click the app → select **Open** (required because the app is not notarized)
-5. Start mapping your ideas! 🧠
+4. Open **Terminal** and run:
+   ```bash
+   xattr -cr /Applications/MindMap\ Tool.app
+   ```
+5. Double-click **MindMap Tool** in Applications — start mapping! 🧠
