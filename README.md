@@ -3,9 +3,17 @@
 A beautiful, AI-powered mind mapping desktop app for macOS — built with Electron, React, and ReactFlow.
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
-![Electron](https://img.shields.io/badge/Electron-30-blue)
+![Platform](https://img.shields.io/badge/platform-macOS_Apple_Silicon-black)
+![Electron](https://img.shields.io/badge/Electron-28-blue)
 ![React](https://img.shields.io/badge/React-18-blue)
+
+### ⬇️ Download
+
+[![Download for macOS](https://img.shields.io/badge/Download-macOS_Apple_Silicon_(M1%2FM2%2FM3%2FM4)-7c3aed?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/elavenile/mindmap-tool/releases/latest/download/MindMap-Tool-1.0.0-arm64.dmg)
+
+> **90 MB** · macOS 12+ · Apple Silicon only (M1, M2, M3, M4)
+>
+> After downloading: Open the `.dmg` → Drag **MindMap Tool** to Applications → Right-click → **Open** (first launch only)
 
 ---
 
@@ -44,7 +52,7 @@ A beautiful, AI-powered mind mapping desktop app for macOS — built with Electr
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/mindmap-tool.git
+git clone https://github.com/elavenile/mindmap-tool.git
 cd mindmap-tool
 
 # Install dependencies
@@ -181,3 +189,16 @@ MIT License — free for personal and commercial use.
 ---
 
 **Made with ❤️ for thinkers, researchers, and idea explorers.**
+
+---
+
+## ⬇️ Download & Install
+
+[![Download for macOS](https://img.shields.io/badge/Download_DMG-macOS_Apple_Silicon-7c3aed?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/elavenile/mindmap-tool/releases/latest/download/MindMap-Tool-1.0.0-arm64.dmg)
+
+**Installation steps:**
+1. Download the `.dmg` file (90 MB)
+2. Open the DMG file
+3. Drag **MindMap Tool** into your **Applications** folder
+4. On first launch: right-click the app → select **Open** (required because the app is not notarized)
+5. Start mapping your ideas! 🧠

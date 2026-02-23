@@ -36,7 +36,15 @@
     "productName": "MindMap Tool",
     "mac": {
       "category": "public.app-category.productivity",
-      "target": "dmg"
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64"
+          ]
+        }
+      ],
+      "icon": null
     },
     "directories": {
       "output": "release"
